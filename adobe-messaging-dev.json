@@ -5,7 +5,7 @@
             "payload": {
                 "content": "This is a demo Adobe SDK notification, to test linking to Help & Support",
                 "wait": 30,
-                "adb_deeplink": "https://www.telstra.com.au/24x7/helpandsupport"
+                "adb_deeplink": "https://jadeboer.github.io/linking/helpandsupport"
             },
             "showOffline": false,
             "showRule": "always",
@@ -27,7 +27,7 @@
             "payload": {
                 "content": "This is a demo Adobe SDK notification, to test linking to the Bill list.",
                 "wait": 30,
-                "adb_deeplink": "https://www.telstra.com.au/24x7/bills?accountId=somevaluehere"
+                "adb_deeplink": "https://jadeboer.github.io/linking/bills?accountId=somevaluehere"
             },
             "showOffline": false,
             "showRule": "always",
@@ -49,7 +49,7 @@
             "payload": {
                 "content": "This is a demo Adobe SDK notification, to test linking to Service Summary - Usage",
                 "wait": 30,
-                "adb_deeplink": "https://www.telstra.com.au/24x7/usage?serviceId=somevaluehere"
+                "adb_deeplink": "https://jadeboer.github.io/linking/usage?serviceId=somevaluehere"
             },
             "showOffline": false,
             "showRule": "always",
