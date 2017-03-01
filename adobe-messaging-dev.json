@@ -1,0 +1,69 @@
+{
+    "messages": [{
+            "messageId": "sometestmessageid-1",
+            "template": "local",
+            "payload": {
+                "content": "This is a demo Adobe SDK notification, to test linking to Help & Support",
+                "wait": 30,
+                "adb_deeplink": "https://www.telstra.com.au/24x7/helpandsupport"
+            },
+            "showOffline": false,
+            "showRule": "always",
+            "endDate": 2524730400,
+            "startDate": 0,
+            "triggers": [{
+                "key": "hashedmyaccid",
+                "matches": "eq",
+                "values": ["76bd9afa603929037f7e0d2daf1b7ed3 "]
+            }, {
+                "key": "pageName",
+                "matches": "eq",
+                "values": ["TD:TR:AND:launch:thanks movies"]
+            }]
+        },
+        {
+            "messageId": "sometestmessageid-2",
+            "template": "local",
+            "payload": {
+                "content": "This is a demo Adobe SDK notification, to test linking to the Bill list.",
+                "wait": 30,
+                "adb_deeplink": "https://www.telstra.com.au/24x7/bills?accountId=somevaluehere"
+            },
+            "showOffline": false,
+            "showRule": "always",
+            "endDate": 2524730400,
+            "startDate": 0,
+            "triggers": [{
+                "key": "hashedmyaccid",
+                "matches": "eq",
+                "values": ["76bd9afa603929037f7e0d2daf1b7ed3 "]
+            }, {
+                "key": "pageName",
+                "matches": "eq",
+                "values": ["TD:TR:AND:settings:settings"]
+            }]
+        },
+        {
+            "messageId": "sometestmessageid-3",
+            "template": "local",
+            "payload": {
+                "content": "This is a demo Adobe SDK notification, to test linking to Service Summary - Usage",
+                "wait": 30,
+                "adb_deeplink": "https://www.telstra.com.au/24x7/usage?serviceId=somevaluehere"
+            },
+            "showOffline": false,
+            "showRule": "always",
+            "endDate": 2524730400,
+            "startDate": 0,
+            "triggers": [{
+                "key": "hashedmyaccid",
+                "matches": "eq",
+                "values": ["76bd9afa603929037f7e0d2daf1b7ed3 "]
+            }, {
+                "key": "pageName",
+                "matches": "eq",
+                "values": ["TD:TR:AND:launch:find a store"]
+            }]
+        }
+    ]
+}
