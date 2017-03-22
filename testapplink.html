@@ -31,13 +31,13 @@
 
         // For this, your app need to have category filter: android.intent.category.BROWSABLE
         android: {
-            'host': 'post/?message=' + encodeURIComponent(qs['message']), // Host/path/querystring part in a custom scheme URL
+            'host': 'link/?message=' + encodeURIComponent(qs['message']), // Host/path/querystring part in a custom scheme URL
             // 'action': '', // Equivalent to ACTION in INTENTs
             // 'category': '', // Equivalent to CATEGORY in INTENTs
             // 'component': '', // Equivalent to COMPONENT in INTENTs
             'scheme': 'telstra24x7', // Scheme part in a custom scheme URL
             'package': 'com.telstra.mobile.android.mytelstra', // Package name in Play store
-            'fallback': 'https://play.google.com/store/apps/details?id=com.telstra.mobile.android.mytelstra&hl=en&message=' + qs['message']
+            'fallback': 'https://play.google.com/store/apps/details?id=com.telstra.mobile.android.mytelstra.pvt.debug&hl=en&message=' + qs['message']
         }
 
     });
